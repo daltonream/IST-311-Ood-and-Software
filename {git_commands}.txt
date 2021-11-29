@@ -1,0 +1,33 @@
+HOW TO PULL CHANGES FROM GITHUB
+1) cd /into/project/directory
+2) git status
+3) git pull
+
+**this is a pull request, it applies 
+all the changes other people have
+pushed to git to the code in your
+local directory - you should do this 
+everytime you start programming**
+
+
+
+
+HOW TO PUSH CHANGES TO GITHUB
+1) cd /into/project/directory
+2) git status
+3) **select & copy the red file path you want to add**
+4) git add **paste the file path from step 3**
+5) git commit -m "a message for the group"
+
+**that is called a commit, you can
+make as many of those as you want
+- when you're done programming for
+the day be sure to push all your
+commits**
+
+6) git status
+7) **make sure all your commits are highlighted green**
+8) git push
+
+**ta-da you made a push**
+

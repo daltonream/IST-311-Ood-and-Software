@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="685.0" prefWidth="734.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.CreateLogViewController">
+   <children>
+      <TextField fx:id="logDateField" accessibleRole="DATE_PICKER" layoutX="201.0" layoutY="234.0" prefHeight="44.0" prefWidth="352.0" promptText="xx/xx/xxxx">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextField>
+      <Text layoutX="25.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create/Update Log">
+         <font>
+            <Font size="45.0" />
+         </font>
+      </Text>
+      <Label layoutX="140.0" layoutY="241.0" text="Date:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="300.0" text="Log Content:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="logContentField" layoutX="201.0" layoutY="300.0" prefHeight="293.0" prefWidth="352.0" promptText="Log Entry Content" wrapText="true">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </TextArea>
+      <Text layoutX="315.0" layoutY="211.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log Entry">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <Button fx:id="saveLogButton" layoutX="650.0" layoutY="634.0" mnemonicParsing="false" onAction="#saveLog" text="Save" />
+      <Button fx:id="cancelLogButton" layoutX="573.0" layoutY="634.0" mnemonicParsing="false" onAction="#cancelLog" text="Cancel" />
+      <Label layoutX="483.0" layoutY="43.0" text="Username:" />
+      <Label layoutX="535.0" layoutY="84.0" text="ID:" />
+      <TextField fx:id="nameTextBox" editable="false" layoutX="561.0" layoutY="38.0" prefHeight="31.0" prefWidth="152.0" />
+      <TextField fx:id="idTextBox" editable="false" layoutX="561.0" layoutY="79.0" prefHeight="31.0" prefWidth="152.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,7 @@
+**cd /into/project/directory**
+1) java -jar derbyrun.jar server start
+
+
+**new terminal window**
+2) java -jar derbyrun.jar ij
+3) CONNECT 'jdbc:derby://localhost:1527/gp5_db;create=true'
